@@ -4,6 +4,6 @@
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "browser",
-    "scope": "/sandbox/push-notifications/",
+    "scope": "/",
     "start_url": "index.html"
   }
