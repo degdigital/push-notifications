@@ -15,4 +15,4 @@ Web clients send their push subscriptions to the application server via an expos
 
 To install the application server, run `npm install` from the `server` directory in a terminal. Then, run `npm start` to fire up the [Express](https://expressjs.com/) web server. 
 
-To send out a push message to subscribed clients, run `npm push`.
+To send out a push message to subscribed clients, run `npm run push`.
