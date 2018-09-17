@@ -1,0 +1,14 @@
+{
+  "name": "push-notifications-client",
+  "version": "1.0.0",
+  "description": "A client website for push notifications",
+  "main": "sw.js",
+  "scripts": {
+    "start": "node express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

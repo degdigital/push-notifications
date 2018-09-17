@@ -1,0 +1,9 @@
+{
+    "name": "Push Notifications",
+    "short_name": "Push Notifications",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "scope": "/sandbox/push-notifications/",
+    "start_url": "index.html"
+  }
