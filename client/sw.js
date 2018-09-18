@@ -13,7 +13,7 @@ self.addEventListener('push', e => {
         badge: 'images/badge.png',
         data: messageData,
         actions: [
-            {action: 'view', title: 'View video'},
+            {action: 'view', title: 'View'},
             {action: 'close', title: 'Close'},
         ]
     };
@@ -25,10 +25,13 @@ self.addEventListener('notificationclick', function(e) {
     if (e.action === 'close') {
         notification.close();
     } else {
-        const {type, id} = e.notification.data;
+        const {type, path} = e.notification.data;
         switch(type) {
+            case 'page':
+                clients.openWindow(path);
+                break;
             case 'video':
-                const url = `http://localhost:3000/video.html?id=${id}`;
+                const url = `https://youtube.com/`;
                 clients.openWindow(url);
                 break;
         } 
